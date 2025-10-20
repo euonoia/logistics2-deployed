@@ -1,3 +1,5 @@
+version: "3.9"
+
 services:
   backend:
     build: ./backend
@@ -6,9 +8,19 @@ services:
     env_file:
       - ./backend/.env
     volumes:
-      - ./backend/firebase-service-account.json:/app/firebase-service-account.json:ro
+      - ./backend:/app        # Live code mount
+      - ./backend/serviceaccountKey.json:/app/serviceaccountKey.json:ro
+    command: npm run dev       # nodemon for hot reload
+    depends_on:
+      - frontend
 
   frontend:
     build: ./frontend
     ports:
-      - "3000:80"
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app        # Live code mount
+      - /app/node_modules      # Prevent overwriting node_modules
+    environment:
+      - CHOKIDAR_USEPOLLING=true # Required for hot reload in Docker on Windows
+    command: npm start         # React dev server

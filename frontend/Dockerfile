@@ -1,14 +1,16 @@
-# Stage 1: Build React app
-FROM node:18 as build
+FROM node:18
 
 WORKDIR /app
+
+# Install dependencies
 COPY package*.json ./
 RUN npm install
-COPY . .
-RUN npm run build
 
-# Stage 2: Serve with nginx
-FROM nginx:alpine
-COPY --from=build /app/build /usr/share/nginx/html
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+# Copy the rest of the code
+COPY . .
+
+# Expose port 3000 for React dev server
+EXPOSE 3000
+
+# Default command is overridden by docker-compose for dev
+CMD ["npm", "start"]

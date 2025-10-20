@@ -1,18 +1,16 @@
-# Use Node 18
 FROM node:18
 
-# Set working directory
 WORKDIR /app
 
-# Copy package files and install dependencies
+# Install dependencies first (leveraging Docker cache)
 COPY package*.json ./
 RUN npm install
 
-# Copy the rest of the backend files
+# Install nodemon globally for hot reload
+RUN npm install -g nodemon
+
+# Copy the rest of the code
 COPY . .
 
-# Expose port
-EXPOSE 5000
-
-# Start the backend
-CMD ["node", "index.js"]
+# Default command is overridden by docker-compose for dev
+CMD ["npm", "start"]
