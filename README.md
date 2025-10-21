@@ -5,6 +5,14 @@ HOW TO SETUP THIS TEMPLATE! FOLLOW THESE STEPS BELOW
 
 make sure you have docker desktop before you start you can download it on here https://www.docker.com/products/docker-desktop/
 
+IMPORTANT NOTICE!!!!
+
+SETUP YOUR FIREBASE FIRESTORE DATABASE FIRST AND GET THE serviceaccountkey from your project console with the setting find this
+and generate new key and rename it into serviceaccountKey.json
+
+<img width="1366" height="662" alt="image" src="https://github.com/user-attachments/assets/b7ff5ed9-1f0c-4b35-a1a3-f4b25811f1ec" />
+
+
 -------------------------------------------------------------------------------------------------------------------------------
 
 RECOMMENDED.ENV
