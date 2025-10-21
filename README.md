@@ -1,6 +1,8 @@
 make sure you have docker desktop before you start you can download it on here https://www.docker.com/products/docker-desktop/
 
-fork this repository
+recommended .env
+<img width="948" height="390" alt="image" src="https://github.com/user-attachments/assets/66293741-7781-43c5-b506-bb4aa8b2f382" />
+
 
 <img width="821" height="339" alt="image" src="https://github.com/user-attachments/assets/a88ca6de-5387-45d5-b0e9-1b83d68dd892" />
 
