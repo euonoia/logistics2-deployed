@@ -1,33 +1,53 @@
+
+HOW TO SETUP THIS TEMPLATE! FOLLOW THESE STEPS BELOW
+
+-------------------------------------------------------------------------------------------------------------------------------
 make sure you have docker desktop before you start you can download it on here https://www.docker.com/products/docker-desktop/
 
-recommended .env
+
+RECOMMENDED.ENV
+
+
 <img width="948" height="390" alt="image" src="https://github.com/user-attachments/assets/66293741-7781-43c5-b506-bb4aa8b2f382" />
 
 FIRST!! IMPORTANT 
 RUN THIS ON YOUR TERMINAL(MAKE SURE YOU ARE INSIDE THE FOLDER)
 
+
 <img width="582" height="235" alt="image" src="https://github.com/user-attachments/assets/895240b0-78d9-4a88-b7e3-ab6638089de5" />
+
 
 WAIT FOR THIS TO COME OUT
 <img width="1013" height="326" alt="image" src="https://github.com/user-attachments/assets/67783910-baa4-43da-adb3-702a54b2180f" />
 
+
 TO START THE LOCALHOST USE THIS COMMAND
 <img width="1017" height="324" alt="image" src="https://github.com/user-attachments/assets/6daf542e-1c8a-45eb-99db-a7e88fbcd826" />
+
 
 AND WHEN YOU SEE THIS ON THE TERMINAL
 <img width="1013" height="685" alt="image" src="https://github.com/user-attachments/assets/d0d2585a-3c84-4b45-afb4-ec81684c86ce" />
 
+
 YOU CAN ACCESS YOUR LOCALHOST!!!!
+
 
 FRONTEND http://localhost:3000/
 
+
 <img width="1365" height="702" alt="image" src="https://github.com/user-attachments/assets/95a3cd12-b94d-43f4-99ff-439cdb01528a" />
+
 
 BACKEND http://localhost:5000/
 
 <img width="1366" height="700" alt="image" src="https://github.com/user-attachments/assets/5667c48c-e703-49de-a13f-9030d89fb466" />
 
-HAPPY CODING!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+HAPPY CODING!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+WHAT I HAVE LEARNED MWEHEHE
+
 
 <img width="821" height="339" alt="image" src="https://github.com/user-attachments/assets/a88ca6de-5387-45d5-b0e9-1b83d68dd892" />
 
