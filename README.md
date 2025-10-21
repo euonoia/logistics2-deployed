@@ -3,6 +3,17 @@ make sure you have docker desktop before you start you can download it on here h
 recommended .env
 <img width="948" height="390" alt="image" src="https://github.com/user-attachments/assets/66293741-7781-43c5-b506-bb4aa8b2f382" />
 
+FIRST!! IMPORTANT 
+RUN THIS ON YOUR TERMINAL(MAKE SURE YOU ARE INSIDE THE FOLDER)
+
+<img width="582" height="235" alt="image" src="https://github.com/user-attachments/assets/895240b0-78d9-4a88-b7e3-ab6638089de5" />
+
+WAIT FOR THIS TO COME OUT
+<img width="1013" height="326" alt="image" src="https://github.com/user-attachments/assets/67783910-baa4-43da-adb3-702a54b2180f" />
+
+TO START THE LOCALHOST USE THIS COMMAND
+<img width="1017" height="324" alt="image" src="https://github.com/user-attachments/assets/6daf542e-1c8a-45eb-99db-a7e88fbcd826" />
+
 
 <img width="821" height="339" alt="image" src="https://github.com/user-attachments/assets/a88ca6de-5387-45d5-b0e9-1b83d68dd892" />
 
