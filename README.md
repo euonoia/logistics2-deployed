@@ -25,7 +25,7 @@ RECOMMENDED.ENV
 -------------------------------------------------------------------------------------------------------------------------------
 
 FIRST!! IMPORTANT 
-RUN THIS ON YOUR TERMINAL(MAKE SURE YOU ARE INSIDE THE FOLDER)
+RUN THIS ON YOUR TERMINAL(MAKE SURE YOU ARE INSIDE THE FOLDER) THE NAME VARIES ON WHAT NAME YOU SETUP WHEN YOU CLONE THIS
 
 
 <img width="582" height="235" alt="image" src="https://github.com/user-attachments/assets/895240b0-78d9-4a88-b7e3-ab6638089de5" />
