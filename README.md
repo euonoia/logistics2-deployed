@@ -1,7 +1,7 @@
 
 HOW TO SETUP THIS TEMPLATE! FOLLOW THESE STEPS BELOW
 
-localhost: docker compose up
+localhost: docker compose up <br>
 production:docker compose -f docker-compose.prod.yml up 
 -------------------------------------------------------------------------------------------------------------------------------
 
