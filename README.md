@@ -52,7 +52,7 @@ AND WHEN YOU SEE THIS ON THE TERMINAL
 YOU CAN ACCESS YOUR LOCALHOST!!!!
 
 
-FRONTEND http://localhost:5173/
+FRONTEND  http://localhost:5173/
 
 
 <img width="1365" height="702" alt="image" src="https://github.com/user-attachments/assets/95a3cd12-b94d-43f4-99ff-439cdb01528a" />
