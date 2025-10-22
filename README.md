@@ -22,6 +22,9 @@ and generate new key and rename it into serviceaccountKey.json SEE THE IMAGE BEL
 
 RECOMMENDED.ENV
 
+PORT=5000
+FIREBASE_SERVICE_ACCOUNT_PATH=/app/serviceaccountKey.json
+
 <img width="948" height="390" alt="image" src="https://github.com/user-attachments/assets/66293741-7781-43c5-b506-bb4aa8b2f382" />
 
 -------------------------------------------------------------------------------------------------------------------------------
