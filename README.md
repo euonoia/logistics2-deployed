@@ -39,11 +39,14 @@ WAIT FOR THIS TO COME OUT
 -------------------------------------------------------------------------------------------------------------------------------
 
 TO START THE LOCALHOST USE THIS COMMAND
+
 <img width="1017" height="324" alt="image" src="https://github.com/user-attachments/assets/6daf542e-1c8a-45eb-99db-a7e88fbcd826" />
 
 
 AND WHEN YOU SEE THIS ON THE TERMINAL
-<img width="1013" height="685" alt="image" src="https://github.com/user-attachments/assets/d0d2585a-3c84-4b45-afb4-ec81684c86ce" />
+
+<img width="653" height="335" alt="image" src="https://github.com/user-attachments/assets/1b371555-ff56-497b-8660-e0fb2a7e4c82" />
+
 
 
 YOU CAN ACCESS YOUR LOCALHOST!!!!
