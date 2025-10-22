@@ -1,16 +1,18 @@
-FROM node:18
+# Use Node 18
+FROM node:22
 
+# Set working directory
 WORKDIR /app
 
-# Install dependencies
+# Copy package files and install dependencies
 COPY package*.json ./
 RUN npm install
 
-# Copy the rest of the code
+# Copy all source code
 COPY . .
 
-# Expose port 3000 for React dev server
-EXPOSE 3000
+# Expose Vite’s default dev port
+EXPOSE 5173
 
-# Default command is overridden by docker-compose for dev
-CMD ["npm", "start"]
+# Run Vite dev server and make it accessible outside container
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
