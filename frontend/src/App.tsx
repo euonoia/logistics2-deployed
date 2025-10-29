@@ -1,15 +1,16 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+// src/App.tsx
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Homepage from './pages/homepage'
-
-function App() {
+import Dashboard from './pages/dashboard'
+import AboutPage from './pages/aboutpage'
+export default function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Homepage />} />
-        {/* Add more pages here */}
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   )
 }
-
-export default App
