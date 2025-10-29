@@ -2,8 +2,7 @@
 HOW TO SETUP THIS TEMPLATE! FOLLOW THESE STEPS BELOW
 
 COMMAND TERMINAL LOCALHOST: docker compose up <br>
-COMMAND TERMINAL PRODUCTION: docker compose -f docker-compose.prod.yml up 
--------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
 
 make sure you have docker desktop before you start you can download it on here https://www.docker.com/products/docker-desktop/
 
