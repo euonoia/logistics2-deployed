@@ -13,6 +13,7 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 5000;
 
+// suggestion: move this to src/config file then export db variable
 // Load service account
 const serviceAccountPath = process.env.FIREBASE_SERVICE_ACCOUNT_PATH;
 if (!serviceAccountPath || !fs.existsSync(serviceAccountPath)) {
